@@ -8,10 +8,10 @@ const heart = document.getElementByClassName("like-glyph");
     const heart = e.target;
       mimicServerCall()
        .then(function(message) {
-         
+
        })
        .catch(function(err) {
-         
+
        })
     ))
   }
